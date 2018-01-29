@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <h1>Vue Todo</h1>
     <todo-list v-bind:todos="todos"></todo-list>
   </div>
 </template>
@@ -48,5 +48,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+h1 {
+  width: 400px;
+  border: 0.5px solid lightgray;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding: 10px;
 }
 </style>
