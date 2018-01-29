@@ -1,6 +1,6 @@
 # todo-app
 
-> A little project to test out Vue.js
+> A little project to test out Vue.js and playing with semantic UI
 
 
 ## Setup
