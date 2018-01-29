@@ -3,7 +3,7 @@
 		<div class="completed-status">
 			<p>Completed Tasks: {{todos.filter(todo => { return todo.complete === true }).length }}</p>
 			<p>Incomplete Tasks: {{todos.filter(todo => { return todo.complete === false }).length }}</p>
-			<todo v-for="todo in todos" v-bind:todo="todo"> </todo>
+			<todo v-for="todo in todos" v-bind:todo="todo"></todo>
 		</div>
 	</div>
 </template>
